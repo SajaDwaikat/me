@@ -1,5 +1,43 @@
 
+#first{
+  margin-left: 20px;
+}
 
+/* Styling for the navigation bar */
+.horizontal-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: fixed; /* Make it fixed at the top */
+  top: 0; 
+  width: 100%; 
+  background-color: white;
+  border-bottom: 1px solid #ccc; 
+  z-index: 1000; 
+}
+
+/* Styling for the individual list items */
+.horizontal-list li {
+  margin-right: 20px;
+}
+
+/* Styling for the links */
+.horizontal-list li a {
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+}
+
+/* Add padding to the top of the body to prevent content overlap with the fixed nav */
+body {
+  padding-top: 15px; 
+}
+
+/* Styling for the welcome message */
+p {
+  margin-bottom: 20px;
+}
 img 
 {
   display: block;
@@ -43,4 +81,5 @@ h4{
  
   background-color: rgb(123, 123, 193);
   color: blanchedalmond;
+ 
 }
