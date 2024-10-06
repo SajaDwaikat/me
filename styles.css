@@ -1,0 +1,45 @@
+
+
+img 
+{
+  display: block;
+  
+  margin-right: auto;
+  width:200px;
+
+}
+/*"To organize the pictures."*/
+.image-group {
+  display: flex;
+ gap: 0px; 
+}
+/*To make all images have the same file type."*/
+.image-group img
+ {
+  inline-size: block;
+  width: 200px; 
+  float: right;
+
+}
+p {
+  color: brown;
+}
+ 
+
+button {
+
+  background-color: rgb(149, 149, 243);
+
+  color: white;
+
+  padding: 5px 10px;
+ cursor: pointer;
+}
+
+h4{
+  inline-size: 750px;
+  padding: 10px 10px;
+ 
+  background-color: rgb(123, 123, 193);
+  color: blanchedalmond;
+}
